@@ -6,8 +6,7 @@ function App(){
     return(
     <div>
         <Container></Container>
-        <Gallery></Gallery>
-        <dog_variety></dog_variety>
+                
     </div>)
 }
 

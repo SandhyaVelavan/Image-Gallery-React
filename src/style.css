@@ -4,16 +4,40 @@
     box-sizing: border-box;
 }
 
-img{
-    background-color: bisque;
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
 }
+
+img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+
+
 
 p{
     color:gray;
 }
 
 .container{
-    width: 400px;
-    height: 300px;
-    background-color: rgba(255, 235, 205, 0.46);
+    width: 935px;
+    padding: 20px 15px;
+    gap:15px;
+    background-color:darkgrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    border: 2px solid gray;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+
 }
